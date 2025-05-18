@@ -5,7 +5,7 @@ import { PerfilComponent } from './pages/perfil/perfil.component';
 
 export const routes: Routes = [
     {
-        path: "home",
+        path: "",
         component: HomeComponent
     },
     {
