@@ -1,28 +1,24 @@
-.header-buttons {
+.header-div {
   display: flex;
-  justify-content: space-between;
-  align-items:flex-start;
-  padding: 10px 20px;
   background-color: #ffffff;
-  border-bottom: 2px solid #ddd;
 }
 
 .logo {
-  height: 50px;
-  margin-right: 20px;
+  height: 10vh;
+  width: 8vw;
 }
 
 .header-btn {
+  height: 10vh;
+  width: 46vw;
   padding: 10px 20px;
-  font-size: 16px;
-  background-color: #28a745; /* Verde */
+  font-size: 20px;
+  background-color: #e41414;
   color: white;
   border: none;
-  border-radius: 8px;
   cursor:default;
-  margin-left: 10px;
 }
 
 .header-btn:hover {
-  background-color: #218838;
+  background-color: #dd3d3d;
 }
