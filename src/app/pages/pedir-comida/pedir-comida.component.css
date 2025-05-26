@@ -1,0 +1,40 @@
+.parent1{
+    display: flex;
+    justify-content: center;
+}
+.dosOpciones{
+    padding-top: 2vw;
+    padding-inline: 2vw;
+    text-align: center;
+    font-size: 20px;
+}
+.dosOpciones:hover{
+    background-color: blue;
+}
+
+
+
+.parent2{
+    display: list-item;
+    justify-content: center;
+    margin-left: 27vw;
+}
+.dosItems{
+    display: flex;
+}
+.unItem{
+    text-align: center;
+    font-size: 20px;
+    padding-inline: 2vw;
+}
+.imagenItem{
+    display: block;
+    width: 15vw;
+}
+
+
+
+.pedir{
+    text-align: center;
+    font-size: 20px;
+}
