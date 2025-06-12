@@ -1,4 +1,4 @@
-import { Component, NgModule } from '@angular/core';
+import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
 //VISTAS PAGINA
@@ -20,6 +20,10 @@ import {MatCardModule} from '@angular/material/card';
     CommonModule,
     MatButtonModule,
     MatCardModule
+  ],
+  exports: [
+    PedirComidaComponent,
+    CardComponent
   ]
 })
 export class PedirComidaModule { }

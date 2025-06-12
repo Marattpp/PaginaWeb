@@ -4,7 +4,7 @@ import { Producto } from '../../../../models/producto';
 @Component({
   selector: 'app-card',
   templateUrl: './card.component.html',
-  styleUrl: './card.component.css'
+  styleUrls: ['./card.component.css']
 })
 export class CardComponent {
    // PROPIEDAD PÚBLICA (TIPO: ARRAY)
